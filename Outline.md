@@ -2,7 +2,7 @@
 
 URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 
-## The Basics
+## The Basics ✅
 
 01 - Welcome and Course Methodologies ✅
 02 - Browser, Editor and Terminal Setup ✅
@@ -16,7 +16,7 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 10 - Types - null and undefined ✅
 11 - Types - Booleans and Equality ✅
 
-## Functions
+## Functions ✅
 
 12 - Functions - Built in ✅
 13 - Functions - Custom ✅
@@ -51,7 +51,7 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 
 ## Serious Practice
 
-33 - Etch-a-Sketch
+33 - Etch-a-Sketch ✅
 34 - Click Outside Modal
 35 - Scroll Events and Intersection Observer
 36 - Tabs

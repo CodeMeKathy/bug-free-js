@@ -47,11 +47,11 @@
 // }
 // console.log(inchToCMAnon(3))
 
-// const inchToCMArrow = inches => {
-//   // Keyword `return` is an explicit return
-//   return inches * 2.54
-// }
-// console.log(inchToCMArrow(3))
+const inchToCMArrow = inches => {
+  // Keyword `return` is an explicit return
+  return inches * 2.54
+}
+console.log(inchToCMArrow(3))
 
 // //* An implicit return, returns a value without using the keyword `return`
 // const inchToCM3 = inches => inches * 2.54
