@@ -4,57 +4,57 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 
 ## The Basics ✅
 
-01 - Welcome and Course Methodologies ✅
-02 - Browser, Editor and Terminal Setup ✅
-03 - Running and Loading JS ✅
-04 - Variables and Statements ✅
-05 - Code Quality Tooling with Prettier and ESLint ✅
-06 - Types - Introduction ✅
-07 - Types - Strings ✅
-08 - Types - Numbers ✅
-09 - Types - Objects ✅
-10 - Types - null and undefined ✅
-11 - Types - Booleans and Equality ✅
+01 - Welcome and Course Methodologies (3:41 mins) ✅
+02 - Browser, Editor and Terminal Setup (10 mins) ✅
+03 - Running and Loading JS (9:23 mins) ✅
+04 - Variables and Statements (20:15 mins) ✅
+05 - Code Quality Tooling with Prettier and ESLint (21:39 mins) ✅
+06 - Types - Introduction (2:50 mins) ✅
+07 - Types - Strings (14:16 mins) ✅
+08 - Types - Numbers (11:26 mins ✅
+09 - Types - Objects (4:01 mins) ✅
+10 - Types - Null and Undefined  (4:58 mins) ✅
+11 - Types - Booleans and Equality (5:47 mins) ✅
 
 ## Functions ✅
 
-12 - Functions - Built in ✅
-13 - Functions - Custom ✅
-14 - Functions - Parameters and Arguments ✅
-15 - Different Ways to Declare Functions ✅
-16 - Debugging Tools
+12 - Functions - Built in (14:32 mins) ✅
+13 - Functions - Custom (10:43 mins) ✅
+14 - Functions - Parameters and Arguments (22:35 mins) ✅
+15 - Different Ways to Declare Functions (37:17 mins) ✅
+16 - Debugging Tools (27:06 mins)
 
 ## The Tricky Bits
 
-17 - Scope
-18 - Hoisting
-19 - Closures
+17 - Scope (23:02 mins)
+18 - Hoisting (5:29 mins)
+19 - Closures (27:06 mins)
 
 ## The DOM - Working with HTML and CSS
 
-20 - The DOM - Introduction to the document
-21 - The DOM - Selecting Elements
-22 - The DOM - Element Properties and Methods
-23 - The DOM - Working with Classes
-24 - The DOM - Build in and Custom Data Attributes
-25 - The DOM - Creating HTML
-26 - The DOM - HTML from Strings and XSS
-27 - The DOM - Traversing and Removing Nodes
-28 - The DOM - CARDIO
+20 - The DOM - Introduction to the document (9:23 mins)
+21 - The DOM - Selecting Elements (11:30 mins)
+22 - The DOM - Element Properties and Methods (14:29 mins)
+23 - The DOM - Working with Classes (8:48 mins)
+24 - The DOM - Build in and Custom Data Attributes (11:41 mins)
+25 - The DOM - Creating HTML (19:53 mins)
+26 - The DOM - HTML from Strings and XSS (19:10 mins)
+27 - The DOM - Traversing and Removing Nodes (11:11 mins)
+28 - The DOM - CARDIO (22:19 mins)
 
 ## Events
 
-29 - Events - Event Listener
-30 - Events - targets, bubbling, propagation and capture
-31 - Events - Prevent Default and Form Events
-32 - Events - Accessibility Gotchas and Keyboard Codes
+29 - Events - Event Listener (23:17 mins)
+30 - Events - Targets, Bubbling, Propagation and Capture (26:01 mins)
+31 - Events - Prevent Default and Form Events (15:05 mins)
+32 - Events - Accessibility Gotchas and Keyboard Codes (9:23 mins)
 
 ## Serious Practice
 
-33 - Etch-a-Sketch ✅
-34 - Click Outside Modal
-35 - Scroll Events and Intersection Observer
-36 - Tabs
+33 - Etch-a-Sketch (45:20 mins) ✅
+34 - Click Outside Modal (23:57 mins)
+35 - Scroll Events and Intersection Observer (19:16 mins)
+36 - Tabs (21:54 mins)
 
 ## Logic & Flow Control
 
