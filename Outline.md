@@ -21,7 +21,7 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 12 - Functions - Built in ✅
 13 - Functions - Custom ✅
 14 - Functions - Parameters and Arguments ✅
-15 - Different Ways to Declare Functions
+15 - Different Ways to Declare Functions ✅
 16 - Debugging Tools
 
 ## The Tricky Bits
