@@ -13,7 +13,7 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 07 - Types - Strings (14:16 mins) ✅
 08 - Types - Numbers (11:26 mins ✅
 09 - Types - Objects (4:01 mins) ✅
-10 - Types - Null and Undefined  (4:58 mins) ✅
+10 - Types - Null and Undefined (4:58 mins) ✅
 11 - Types - Booleans and Equality (5:47 mins) ✅
 
 ## Functions ✅
@@ -22,17 +22,17 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 13 - Functions - Custom (10:43 mins) ✅
 14 - Functions - Parameters and Arguments (22:35 mins) ✅
 15 - Different Ways to Declare Functions (37:17 mins) ✅
-16 - Debugging Tools (27:06 mins)
+16 - Debugging Tools (27:06 mins) ✅
 
 ## The Tricky Bits
 
-17 - Scope (23:02 mins)
-18 - Hoisting (5:29 mins)
+17 - Scope (23:02 mins) ✅
+18 - Hoisting (5:29 mins) ✅
 19 - Closures (27:06 mins)
 
 ## The DOM - Working with HTML and CSS
 
-20 - The DOM - Introduction to the document (9:23 mins)
+20 - The DOM - Introduction to the document (9:23 mins) ✅
 21 - The DOM - Selecting Elements (11:30 mins)
 22 - The DOM - Element Properties and Methods (14:29 mins)
 23 - The DOM - Working with Classes (8:48 mins)

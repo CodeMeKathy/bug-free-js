@@ -6,9 +6,9 @@ const people = [
   { name: 'Snickers', cool: false, country: 'Dog Country' }
 ]
 
-people.forEach((person, index) => {
-  if (person.name === 'Wes') console.log(person.name)
-})
+// people.forEach((person, index) => {
+//   if (person.name === 'Wes') console.log(person.name)
+// })
 
 // //* Console Methods
 // console.table(people)
@@ -65,9 +65,14 @@ function bootstrap() {
 // $('button') selects indicated first encountered element // first button on page
 // $$('button') selects all indicated elements // all buttons on the page
 
-//* Breakpoints
+// //* Breakpoints
+// people.forEach((person, index) => {
+//   debugger
+//   console.log(person.name)
+// })
 
 //* Scope
+// Allows one to peer into the accessibility of variables
 
 //* Network Requests
 
