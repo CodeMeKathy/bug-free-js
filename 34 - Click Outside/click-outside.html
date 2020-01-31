@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href=" ../base.css" />
+  </head>
+
+  <body>
+    <div class="cards">
+      <div class="card" data-description="CodeMeKathy is kool">
+        <img src="https://picsum.photos/200?random=1" alt="CodeMeKathy" />
+        <h2>CodeMeKathy</h2>
+        <button>Learn more →</button>
+      </div>
+      <div class="card" data-description="Sandy is neat!">
+        <img src="https://picsum.photos/200?random=2" alt="Sandy" />
+        <h2>Sandy Jones</h2>
+        <button>Learn more →</button>
+      </div>
+      <div class="card" data-description="Jean-Luc is da Man!!">
+        <img src="https://picsum.photos/200?random=3" alt="Jean-Luc" />
+        <h2>Jean-Luc Picard</h2>
+        <button>Learn more →</button>
+      </div>
+      <div class="card" data-description="Number1 is Jean-Luc's best-friend!">
+        <img src="https://picsum.photos/200?random=4" alt="Number1" />
+        <h2>Number1</h2>
+        <button>Learn more →</button>
+      </div>
+    </div>
+
+    <div class="modal-outer">
+      <div class="modal-inner">
+        <p>Thank you for wanting to learn more!</p>
+      </div>
+    </div>
+
+    <style>
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+        padding: 2rem;
+      }
+
+      .card {
+        background: white;
+        padding: 1rem;
+        border-radius: 2px;
+      }
+
+      .card img {
+        width: 100%;
+      }
+
+      .card h2 {
+        color: black;
+      }
+      .modal-outer {
+        display: grid;
+        background: hsla(300, 100%, 73%, 0.5);
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        /* Hide the modal by default */
+        opacity: 0;
+        /* Sets all event listeners to ignore */
+        pointer-events: none;
+        /* Add transition which slowly displays modal */
+        transition: opacity 0.2s;
+      }
+      .modal-outer img {
+        width: 100%;
+      }
+      .modal-outer.open {
+        /* Set upon settings to the opposite to display or open modal */
+        opacity: 1;
+        pointer-events: all;
+      }
+      .modal-inner {
+        max-width: 600px;
+        min-width: 400px;
+        padding: 2rem;
+        min-height: 200px;
+        background: white;
+        border-radius: 5px;
+      }
+    </style>
+    <script src="./click-outside.js"></script>
+  </body>
+</html>
