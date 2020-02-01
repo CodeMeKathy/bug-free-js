@@ -52,7 +52,7 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 ## Serious Practice
 
 33 - Etch-a-Sketch (45:20 mins) ✅
-34 - Click Outside Modal (23:57 mins)
+34 - Click Outside Modal (23:57 mins) ✅
 35 - Scroll Events and Intersection Observer (19:16 mins)
 36 - Tabs (21:54 mins)
 
