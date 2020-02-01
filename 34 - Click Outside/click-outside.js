@@ -21,7 +21,7 @@ function handleCardButtonClick() {
   // Grab card name
   const name = card.querySelector('h2').textContent
   // Populate the model with the data description of the element
-  modalInner.innerHTML = `<img src="${imgSrc.replace(
+  modalInner.innerHTML = `<img width="600" height="600" src="${imgSrc.replace(
     '200',
     '600'
   )}" alt="${name}" /> <br>
