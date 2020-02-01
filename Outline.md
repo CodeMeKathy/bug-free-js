@@ -33,7 +33,7 @@ URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
 ## The DOM - Working with HTML and CSS
 
 20 - The DOM - Introduction to the document (9:23 mins) ✅
-21 - The DOM - Selecting Elements (11:30 mins)
+21 - The DOM - Selecting Elements (11:30 mins) ✅
 22 - The DOM - Element Properties and Methods (14:29 mins)
 23 - The DOM - Working with Classes (8:48 mins)
 24 - The DOM - Build in and Custom Data Attributes (11:41 mins)
