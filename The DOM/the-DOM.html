@@ -12,23 +12,40 @@
 <body>
   <div class="items">
     <div class="item">
-      <img src="https://picsum.photos/200" alt="Random Placeholder Image">
+      <img class="nice cool" src="https://picsum.photos/200" alt="Random Placeholder Image">
       <p>Hi I'm a item</p>
     </div>
     </div>
     <div class="item item2">
       <img src="https://source.unsplash.com/random/200x200" alt="Random Placeholder Image">
-      <h2>Sub Div Heading</h2>
+      <h2>I am a Heading
+        <span>I am a hidden HTML</span>
+        <!-- <style>
+          h2 {color: rebeccapurple}
+        </style> -->
+      </h2>
       <p>Hi I'm a item</p>
     </div>
     <article class="item">
       <h2>I'm an article</h2>
+      <p class="pizza" >This is how many pizzas I ate 🍕</p>
     </article>
     <p>Hi I'm a item</p>
     <p>Hi I'm a item</p>
   </div>
 
   <style>
+    h2 span {
+      display: none;
+    }
+    img {
+      transition: all 0.2s;
+    }
+    .round { 
+      border-radius: 50%;
+      transform: rotate(1turn) scale(1.5);
+      box-shadow: 0 0 10px black;
+    }
   </style>
 
   <script src="./the-DOM.js"></script>
