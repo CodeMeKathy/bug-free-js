@@ -33,12 +33,22 @@ listItem3.appendChild(item3)
 newDiv.appendChild(unList)
 
 //* create an image
+let newImage = document.createElement('img')
 
 //* set the source to an image
+newImage.src = 'https://picsum.photos/200?random'
+
 //* set the width to 250
+newImage.width = '250'
+
 //* add a class of cute
+newImage.classList.add('cute')
+
 //* add an alt of Cute Puppy
+newImage.alt = 'Cute Puppy'
+
 //* Append that image to the wrapper
+newDiv.appendChild(newImage)
 
 //* with HTML string, make a div, with two paragraphs inside of it
 // put this div before the unordered list from above
