@@ -1,18 +1,36 @@
 // console.log('It works!')
+
 //* Make a div
-var newDiv = document.createElement('div')
+let newDiv = document.createElement('div')
 
 //* add a class of wrapper to it
-
 newDiv.classList.add('wrapper')
 console.log(newDiv.classList)
 
 //* put it into the body
+// document.body.onload = addElement
+document.body.appendChild(newDiv)
 
 //* make an unordered list
+let unList = document.createElement('ul')
 
 //* add three list items with the words "one, two three" in them
+let listItem1 = document.createElement('li')
+let listItem2 = document.createElement('li')
+let listItem3 = document.createElement('li')
+unList.appendChild(listItem1)
+unList.appendChild(listItem2)
+unList.appendChild(listItem3)
+
+let item1 = document.createTextNode('one')
+let item2 = document.createTextNode('two')
+let item3 = document.createTextNode('three')
+listItem1.appendChild(item1)
+listItem2.appendChild(item2)
+listItem3.appendChild(item3)
+
 //* put that list into the above wrapper
+newDiv.appendChild(unList)
 
 //* create an image
 
