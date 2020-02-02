@@ -12,6 +12,14 @@ console.log(newDiv.classList)
 document.body.appendChild(newDiv)
 
 //* make an unordered list
+// WB Way
+const ul = `<ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+</ul>`
+
+// My way
 let unList = document.createElement('ul')
 
 //* add three list items with the words "one, two three" in them
@@ -30,16 +38,22 @@ listItem2.appendChild(item2)
 listItem3.appendChild(item3)
 
 //* put that list into the above wrapper
+
+// // WB Way
+// div.innerHTML = ul
+
+// My Way
 newDiv.appendChild(unList)
 
 //* create an image
 let newImage = document.createElement('img')
 
 //* set the source to an image
-newImage.src = 'https://picsum.photos/200?random'
+newImage.src = 'https://picsum.photos/500?random'
 
 //* set the width to 250
 newImage.width = '250'
+newImage.height = '250'
 
 //* add a class of cute
 newImage.classList.add('cute')
@@ -51,17 +65,20 @@ newImage.alt = 'Cute Puppy'
 newDiv.appendChild(newImage)
 
 //* with HTML string, make a div, with two paragraphs inside of it
-// put this div before the unordered list from above
+
+//* put this div before the unordered list from above
 
 //* add a class to the second paragraph called warning
 //* remove the first paragraph
 
 //* create a function called generatePlayerCard that takes in three arguments: name, age, and height
 
+function generatePlayerCard(name, age, height) {}
+
 //* have that function return html that looks like this:
 // <div class="playerCard">
 //   <h2>NAME — AGE</h2>
-//   <p>They are HEIGHT and AGE years old. In Dog years this person would be AGEINDOGYEARS. That would be a tall dog!</p>
+//   <p>They are HEIGHT and AGE years old. In Dog years this person would be AgeInDogYears. That would be a tall dog!</p>
 // </div>
 
 //* make a new div with a class of cards
@@ -69,9 +86,13 @@ newDiv.appendChild(newImage)
 //* Have that function make 4 cards
 
 //* append those cards to the div
+
 //* put the div into the DOM just before the wrapper element
+
 //* Bonus, put a delete Button on each card so when you click it, the whole card is removed
 
 //* select all the buttons!
+
 //* make out delete function
+
 //* loop over them and attach a listener

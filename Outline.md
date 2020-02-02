@@ -29,7 +29,7 @@
 
 - 17 - Scope (23:02 mins) ✅
 - 18 - Hoisting (5:29 mins) ✅
-- 19 - Closures (27:06 mins)
+- 19 - Closures (12:38 mins)
 
 ## The DOM - Working with HTML and CSS
 
