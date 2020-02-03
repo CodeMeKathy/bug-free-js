@@ -69,6 +69,9 @@ const li3 = document.createElement('li')
 const li4 = document.createElement('li')
 const li5 = document.createElement('li')
 
+// Alternative to `createElement is to clone the the node via `cloneNode()` to copy the element but not its content
+const li6 = li5.cloneNode(true) //True is required to include child elements.  The text content is considered a child element
+
 // Add Text to each `li` element
 li1.textContent = 'One'
 li2.textContent = 'Two'
