@@ -89,6 +89,12 @@ console.log(pic.classList)
 // Use the property `.className` to return a list of class names
 console.log(`Variable pic list of classes: ${pic.className}`)
 
-//* Data Attributes
+//* HTML Element Data Attributes - Anything provided to an element as additional information
+// Things like classes atl, and src
+
+// Setters & Getters
+pic.alt = 'Cute Pup' // Setter
+console.log(pic.alt) // Getter
+console.log(pic.naturalWidth) // Getter
 
 //*
