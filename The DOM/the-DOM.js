@@ -110,25 +110,23 @@ const pic = document.querySelector('.nice')
 
 // To set element width
 
-pic.width = 200
+// pic.width = 200
 
-// Set Attribute
-pic.setAttribute('alt', 'Really Cute Puppy')
+// // Set Attribute
+// pic.setAttribute('alt', 'Really Cute Puppy')
 
-// Get Attribute
-console.log(pic.getAttribute('alt'))
+// // Get Attribute
+// console.log(pic.getAttribute('alt'))
 
-// Boolean is Attribute Present
+// // Boolean is Attribute Present
 
-// Custom Attributes are called Data Attributes
+// // Custom Attributes are called Data Attributes
 
-// To create a data attribute use the prefix `data-` followed by an assigned word for example `data-name`
+// // To create a data attribute use the prefix `data-` followed by an assigned word for example `data-name`
 
-const custom = document.querySelector('.nice')
-console.log(custom.dataset)
+// const custom = document.querySelector('.nice')
+// console.log(custom.dataset)
 
-custom.addEventListener('click', function() {
-  alert(`Welcome ${custom.dataset.name} ${custom.dataset.last}`)
-})
-
-//*
+// custom.addEventListener('click', function() {
+//   alert(`Welcome ${custom.dataset.name} ${custom.dataset.last}`)
+// })
