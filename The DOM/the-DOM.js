@@ -69,32 +69,66 @@ const heading = document.querySelector('h2 ')
 // There are built-in methods to allow for the adding and removing of class attributes
 
 const pic = document.querySelector('.nice')
-console.log(pic.classList)
-// A ClassList is similar to an array of the classes on an element
-// The _proto_ list provides a list of methods that can be used on that element
-pic.classList.add('open')
-pic.classList.remove('cool')
-console.log(pic.classList)
-// pic.classList.toggle('round')
-console.log(pic.classList)
+// console.log(pic.classList)
 
-// Create a function to add an event listener on click that toggles the class round on the first image
-function toggleRound() {
-  pic.classList.toggle('round')
-}
+// // A ClassList is similar to an array of the classes on an element
+// // The _proto_ list provides a list of methods that can be used on that element
+// pic.classList.add('open')
+// pic.classList.remove('cool')
+// console.log(pic.classList)
+// // pic.classList.toggle('round')
+// console.log(pic.classList)
 
-pic.addEventListener('click', toggleRound)
-console.log(pic.classList)
+// // Create a function to add an event listener on click that toggles the class round on the first image
+// function toggleRound() {
+//   pic.classList.toggle('round')
+// }
 
-// Use the property `.className` to return a list of class names
-console.log(`Variable pic list of classes: ${pic.className}`)
+// pic.addEventListener('click', toggleRound)
+// console.log(pic.classList)
 
-//* HTML Element Data Attributes - Anything provided to an element as additional information
-// Things like classes atl, and src
+// // Use the property `.className` to return a list of class names
+// console.log(`Variable pic list of classes: ${pic.className}`)
 
-// Setters & Getters
-pic.alt = 'Cute Pup' // Setter
-console.log(pic.alt) // Getter
-console.log(pic.naturalWidth) // Getter
+// //* HTML Element Data Attributes - Anything provided to an element as additional information
+// // Things like classes atl, and src
+
+// // Setters & Getters
+// pic.alt = 'Cute Pup' // Setter
+// console.log(pic.alt) // Getter
+// console.log(pic.naturalWidth) // Getter
+
+// // Best Use Case: Add Event Listener to the `pic` element
+// pic.addEventListener('load', function() {
+//   console.log(pic.naturalWidth) // Getter
+// })
+
+// // Add Event Listener to the `window`
+// window.addEventListener('load', function() {
+//   console.log(pic.naturalWidth) // Getter
+// })
+
+// To set element width
+
+pic.width = 200
+
+// Set Attribute
+pic.setAttribute('alt', 'Really Cute Puppy')
+
+// Get Attribute
+console.log(pic.getAttribute('alt'))
+
+// Boolean is Attribute Present
+
+// Custom Attributes are called Data Attributes
+
+// To create a data attribute use the prefix `data-` followed by an assigned word for example `data-name`
+
+const custom = document.querySelector('.nice')
+console.log(custom.dataset)
+
+custom.addEventListener('click', function() {
+  alert(`Welcome ${custom.dataset.name} ${custom.dataset.last}`)
+})
 
 //*
