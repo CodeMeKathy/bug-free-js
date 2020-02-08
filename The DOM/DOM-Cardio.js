@@ -65,15 +65,39 @@ newImage.alt = 'Cute Puppy'
 newDiv.appendChild(newImage)
 
 //* with HTML string, make a div, with two paragraphs inside of it
-
+const string = `
+  <div class='stringDiv' >
+    <p>Paragraph #1</p>
+    <p>Paragraph #2</p>
+  </div>
+`
 //* put this div before the unordered list from above
+const ulElement = newDiv.querySelector('ul')
+console.log(ulElement)
+// document.body.insertBefore(stringFrag, ulElement)
+ulElement.insertAdjacentHTML('beforebegin', string)
+console.log(typeof string)
 
 //* add a class to the second paragraph called warning
+const stringDiv = newDiv.querySelector('.stringDiv')
+console.log(stringDiv)
+stringDiv.children[1].classList.add('warning')
+
 //* remove the first paragraph
+stringDiv.firstElementChild.remove()
 
 //* create a function called generatePlayerCard that takes in three arguments: name, age, and height
-
-function generatePlayerCard(name, age, height) {}
+function generatePlayerCard(name, age, height) {
+  newHTML = `
+  <div className="playerCard">
+  <h2>${name} - ${age}</h2>
+  <p> Their height is ${height} and ${age} years old.  In Dog years this person would be ${age *
+    7} Dog years old.  That would be a tall dog!</p>
+  </div>
+  `
+  return newHTML
+}
+console.log(generatePlayerCard('sammy', 13, 54))
 
 //* have that function return html that looks like this:
 // <div class="playerCard">
