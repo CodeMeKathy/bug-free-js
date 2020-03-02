@@ -1,7 +1,13 @@
 # Wes Bos' Beginner JavaScript Course Outline
 
 - URL: [https://beginnerjavascript.com](https://beginnerjavascript.com)
-- ✅ = Completed Section
+- Key: ✅ = Completed Section
+
+#### Progress
+
+- 3.75% Completed
+
+- 4 Completed Sections / 15 Total Sections
 
 ## The Basics ✅
 
@@ -40,8 +46,8 @@
 - 24 - The DOM - Built-in and Custom Data Attributes (11:41 mins) ✅
 - 25 - The DOM - Creating HTML (19:53 mins) ✅
 - 26 - The DOM - HTML from Strings and XSS (19:10 mins) ✅
-- 27 - The DOM - Traversing and Removing Nodes (11:11 mins)
-- 28 - The DOM - CARDIO (22:19 mins)
+- 27 - The DOM - Traversing and Removing Nodes (11:11 mins) ✅
+- 28 - The DOM - CARDIO (22:19 mins) ✅
 
 ## Events
 
