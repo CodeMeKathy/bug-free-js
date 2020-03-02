@@ -51,7 +51,7 @@
 
 ## Events
 
-- 29 - Events - Event Listener (23:17 mins)
+- 29 - Events - Event Listener (23:17 mins) ✅
 - 30 - Events - Targets, Bubbling, Propagation and Capture (26:01 mins)
 - 31 - Events - Prevent Default and Form Events (15:05 mins)
 - 32 - Events - Accessibility Gotchas and Keyboard Codes (9:23 mins)
