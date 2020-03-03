@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../base.css" />
+    <title>APIs</title>
+  </head>
+  <body>
+    <script>
+      // Define a variable also commonly known as the API endpoint which is the url you need to visit to access the data provided by API
+
+      // Handle Error Function
+      function handleError(err) {
+        console.log('Oh No!')
+        console.log(err)
+      }
+
+      const endpoint = 'https://api.github.com/users/codemekathy'
+
+      const kathyPromise = fetch(endpoint)
+      console.log(kathyPromise)
+
+      kathyPromise
+        .then(response => {
+          return response.json()
+          console.log(response)
+        })
+        .then(data => {
+          console.log(data)
+        })
+        .catch(handleError)
+    </script>
+  </body>
+</html>
