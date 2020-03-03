@@ -120,7 +120,7 @@
 
 ## 13. Ajax and Fetching Data
 
-- 74 - Ajax and APIs (18:13 mins)
+- 74 - Ajax and APIs (18:13 mins) ✅
 - 75 - CORS and Recipes (34:47 mins)
 - 76 - Dad Jokes (23:11 mins)
 - 77 - Currency Converter (28:30 mins)
