@@ -7,6 +7,9 @@ const proxy = `https://cors-anywhere.herokuapp.com/`
 // Select the Form Element from the HTML and set to a variable
 const form = document.querySelector('form.search')
 
+// Create a Grid within the `div` with the class name of `recipe`
+const recipesGridElement = document.querySelector('.recipes')
+
 // Create an async function to process the data fetch request
 
 async function fetchRecipes(query) {
@@ -24,14 +27,18 @@ async function handleSubmit(event) {
   // Select the event target which is the form input element
   const formInputElement = event.currentTarget
   console.log(formInputElement.query.value)
+}
+
+// Create a new function to load and display the recipe data
+async function fetchAndDisplay(query) {
   // Set form to off
-  formInputElement.submit.disabled = true
+  form.submit.disabled = true
   // Submit the search query
-  const recipes = await fetchRecipes(formInputElement.query.value)
+  const recipes = await fetchRecipes(query)
   console.log(recipes)
 
   // Reset the submit button disabled status
-  formInputElement.submit.disabled = false
+  form.submit.disabled = false
 
   // Run the displayRecipe Function
   displayRecipes(recipes.results)
@@ -39,19 +46,21 @@ async function handleSubmit(event) {
 
 // Create a function to display the recipe to the DOM
 function displayRecipes(recipes) {
-  console.log('Creating HTML')
-  console.log(recipes)
-  const htmlDiv = recipes.map(recipe => {
-    return `<div>
-      <h2>${recipes.title}</h2>
-      <h5>${recipes.ingredients}</h5>
-      ${recipe.thumbnail &&
-        `<img src='${recipe.thumbnail}' alt='${recipe.title}' />`}
+  // console.log('Creating HTML')
+  // console.log(recipes)
+  const htmlDiv = recipes.map(
+    recipe => `<div class='recipe'>
+    <h2>${recipe.title}</h2>
+    <h5>${recipe.ingredients}</h5>
+    ${recipe.thumbnail &&
+      `<img src='${recipe.thumbnail}' alt='${recipe.title}' />`}
+    <a href='${recipe.href}'>View Recipe →</a> 
     </div>`
-  })
-  console.log(html)
+  )
+  // console.log(html)
+  recipesGridElement.innerHTML = htmlDiv.join('')
 }
 
 form.addEventListener('submit', handleSubmit)
-
-fetchRecipes('pizza')
+// On page load run it with pizza
+fetchAndDisplay('pizza')
