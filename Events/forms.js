@@ -57,3 +57,26 @@ signupForm.name.addEventListener('keydown', logEvent)
 signupForm.name.addEventListener('focus', logEvent)
 signupForm.name.addEventListener('blur', logEvent)
 
+//* Accessibility
+
+// Buttons are for call to actions or to trigger an action
+// Links are used to change the page
+  // Note `preventDefault` is not traditionally used with links, but it is ok to use to prevent unauthorized action on a link, e.g. A link which requires logged in access.  
+
+  // Select the image element
+  const accPhoto = document.querySelector('.photo')
+
+  // Create a `handlePhotoClick` function that returns via the console 'You have clicked the button' if the element is clicked with the mouse or if enter is pressed when the photo is selected
+
+  function handlePhotoClick(event) {
+    if (event.type === 'click' || event.key === 'Enter' ) {
+      console.log('You have clicked the button')
+    }
+  }
+  
+
+  // Run both use cases
+  accPhoto.addEventListener('click', handlePhotoClick)
+  accPhoto.addEventListener('keyup', handlePhotoClick)
+
+
