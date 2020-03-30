@@ -5,9 +5,9 @@
 
 #### Progress
 
-- 2.66% Completed
+- 3.33% Completed
 
-- 4 Completed Modules / 15 Total Modules
+- 5 Completed Modules / 15 Total Modules
 
 ## Module 1. The Basics ✅
 
@@ -60,7 +60,7 @@
 
 - 33 - Etch-a-Sketch (45:20 mins) ✅
 - 34 - Click Outside Modal (23:57 mins) ✅
-- 35 - Scroll Events and Intersection Observer (19:16 mins)
+- 35 - Scroll Events and Intersection Observer (19:16 mins) ✅
 - 36 - Tabs (21:54 mins)
 
 ## Module 7. Logic & Flow Control
