@@ -5,9 +5,9 @@
 
 #### Progress
 
-- 3.33% Completed
+- 40% Completed
 
-- 5 Completed Modules / 15 Total Modules
+- 6 Completed Modules / 15 Total Modules
 
 ## Module 1. The Basics ✅
 
@@ -56,12 +56,12 @@
 - 31 - Events - Prevent Default and Form Events (15:05 mins) ✅
 - 32 - Events - Accessibility Gotchas and Keyboard Codes (9:23 mins) ✅
 
-## Module 6. Serious Practice
+## Module 6. Serious Practice  ✅
 
 - 33 - Etch-a-Sketch (45:20 mins) ✅
 - 34 - Click Outside Modal (23:57 mins) ✅
 - 35 - Scroll Events and Intersection Observer (19:16 mins) ✅
-- 36 - Tabs (21:54 mins)
+- 36 - Tabs (21:54 mins) ✅
 
 ## Module 7. Logic & Flow Control
 
